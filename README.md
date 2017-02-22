@@ -1,0 +1,2 @@
+# Logging_with_Singleton_Design
+[ 11/15/2016 ] C++ program that uses the Factory Method to create an instance of a logging object through an abstract base class and two derived classes: console logger and file logger.  This is also implemented with the Singleton Method to allow only one instance of any logger, and, if called from anywhere in the program, will only return the single logger object instantiated.  Allows for the logger to be deleted and a new instance created.  The driver file simply demonstrates the functionality.
